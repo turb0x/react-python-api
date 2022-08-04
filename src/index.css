@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: rgb(184, 184, 184);
+  background-color: rgb(24, 24, 24);
+}
+
+textarea{
+  resize: none;
+  height: 150px
+}
+
+.App {
+  background-color: rgb(24, 24, 24);
+}
+
+.navbar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 3px solid #3b1a78;
+  background-color: rgb(24, 24, 24);
+}
+.navbar h1 {
+  color: #7735f1;
+  font-size: 33px;
+  margin-left: -15px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #7735f1;
+}
+.content {
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+.product-preview {
+  border-radius: 15px;
+  padding: 10px 16px;
+  margin: 20px 0;
+  background-color: rgb(44, 44, 44);
+}
+.product-preview:hover {
+  box-shadow: 0.5px 1px 10px 10px #451f8b;
+}
+.product-preview h2 {
+  font-size: 20px;
+  color: #7735f1;
+  margin-bottom: 8px;
+  background-color: rgb(44, 44, 44);
+}
+
+.product-preview a {
+  text-decoration: none;
+}
+
+.product-preview p {
+  background-color: rgb(44, 44, 44);
+}
+
+.product-details h2 {
+  font-size: 25px;
+  color: #7735f1;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.product-details div {
+  margin: 20px 0;
+}
+
+.product-details p {
+  background-color: rgb(44, 44, 44);
+  border-radius: 15px;
+  padding: 10px 16px;
+  margin: auto;
+}
+
+.product-details article {
+  text-align: center;
+}
+
+.product-details button {
+  font-size: 15px;
+  background: #7735f1;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+  background-color: rgb(44, 44, 44);
+}
+.create h2 {
+  font-size: 25px;
+  color: #7735f1;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 0;
+  display: block;
+  border-radius: 10px;
+  background-color: rgb(30, 30, 30);
+}
+
+.create form {
+  background-color: rgb(44, 44, 44);
+  border-radius: 15px;
+  padding: 17px 20px;
+  margin: auto;
+}
+
+.create button {
+  font-size: 15px;
+  background: #7735f1;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.create a {
+  background-color: rgb(44, 44, 44);
+  text-align: right;
+}
